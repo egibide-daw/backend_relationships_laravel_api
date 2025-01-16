@@ -10,13 +10,13 @@ HTTPS_PORTAL_VERSION=1
 
 # Variables de configuración
 MYSQL_ROOT_PASSWORD=12345Abcde
-MYSQL_DATABASE=blog
-MYSQL_USER=blog
+MYSQL_DATABASE=dwes_relationships
+MYSQL_USER=dwes_relationships
 MYSQL_PASSWORD=12345Abcde
 
 # Prefijo para los contenedores
-COMPOSE_PROJECT_NAME=blog
+COMPOSE_PROJECT_NAME=dwes_relationships
 
 # Sitios web
-HTTPS_PORTAL_SITES=blog.test -> http://nginx:80, phpmyadmin.blog.test -> http://phpmyadmin:80,
+HTTPS_PORTAL_SITES=proyecto.test -> http://nginx:80, phpmyadmin.proyecto.test -> http://phpmyadmin:80,
 HTTPS_PORTAL_STAGE=local
